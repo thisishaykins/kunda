@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "kunda"
+version = "0.1.0"
+description = ""
+authors = ["Akinshola Samuel <akinsholasamuel@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.5"
+dj-database-url = "^2.1.0"
+psycopg2-binary = "^2.9.7"
+gunicorn = "^21.2.0"
+whitenoise = {extras = ["brotli"], version = "^6.5.0"}
+requests = "^2.31.0"
+django-appconf = "^1.0.5"
+django-auditlog = "^2.3.0"
+django-axes = "^6.1.1"
+django-cassandra-engine = "^1.8.0"
+django-ipware = "^5.0.0"
+django-jsonfield = "^1.4.1"
+django-ratelimit = "^4.1.0"
+django-restframework = "^0.0.1"
+markdown = "^3.4.4"
+django-filter = "^23.3"
+django-notifications-hq = "^1.8.2"
+django-admin-ip-whitelist = "^0.1.1"
+djangorestframework = "^3.14.0"
+openai = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
